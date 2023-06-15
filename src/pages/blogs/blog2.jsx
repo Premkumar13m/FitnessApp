@@ -24,6 +24,7 @@ export default function Blog2() {
           likelihood a healthier food choice will be made."
         </p>
         <p>Just for testing</p>
+        <p>For configuration purpose</p>
         <p className="font-inter font-[600] text-[24px] mt-5">Eat Healthy</p>
         <p className='font-inter font-[400] text-[18px] text-[#7A7a7A] leading-[30px] mt-5'>
           When you're hungry and your blood sugar drops, you're more inclined to
