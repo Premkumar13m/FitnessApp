@@ -9,8 +9,7 @@ export default function Header() {
       <div className="mx-auto px-10">
         <div className='flex'>
          <div className='w-1/2 p-1 font-pacifico font-[400] text-[35px]'>
-          {/* <Image src={logo} className="h-[50px] w-[150px]"/> */}
-          next.fit
+           <Link href="/home/home">next.fit</Link>
          </div>
          <div className='w-1/2 flex justify-end items-center'>
            <ul className="flex gap-16 font-oswald text-[24px] font-[400]">

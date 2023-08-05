@@ -16,17 +16,18 @@ export default function Servicehero() {
                <Link href="/services/exercises">
                  <Image src={ExerciseImg} alt="Exercise img"/>  
                </Link>
-               
              </div>
              <div className="w-1/2">
                <h3 className="font-bebas font-[400] text-[40px]">Diet Plans</h3>
-               <Image src={DietPlan} alt="dietplan image" className="h-[87%]"/>  
+               <Link href="/services/dietplan">
+                 <Image src={DietPlan} alt="dietplan image" className="h-[87%]"/>
+               </Link>  
              </div>
             </div>
             <div className="flex justify-center mt-5 mb-10">
               <div className="w-1/2">
                 <h3 className="font-bebas font-[400] text-[40px] text-center">Yoga</h3>
-                <Link href="/services/service-3">
+                <Link href="/services/yoga-services">
                   <Image src={YogaServices} alt="Yoga Services" className="h-[90%]"/>
                 </Link>
               </div>
