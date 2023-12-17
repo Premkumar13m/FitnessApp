@@ -4,6 +4,7 @@ import logo from '../../../public/assets/images/logo.png'
 import Link from 'next/link'
 
 export default function Header() {
+  //const auth=JSON.parse(localStorage.getItem('user'));
   return (
     <section>
       <div className="mx-auto px-10">
@@ -25,7 +26,7 @@ export default function Header() {
               <Link href="/profile">Profile</Link>
             </li>
            </ul>
-          </div> 
+          </div>
         </div> 
      </div>
     </section>
