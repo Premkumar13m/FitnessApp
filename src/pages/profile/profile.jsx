@@ -1,13 +1,26 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState,} from 'react'
 import Image from 'next/image'
 import userIcon from '../../../public/assets/images/user-icon.png'
 import graph from '../../../public/assets/images/graph1.png'
 import calorieIcon from '../../../public/assets/images/calories-icon.png'
 import achievement from '../../../public/assets/images/achievement-icon.png'
+import { useEffect } from 'react'
+import { useRouter } from 'next/router'
 
 export default function Profile() {
+  const [client,setClient]=useState();
+  useEffect(() => {
+    setClient(localStorage.getItem('user'))
+  }, [])
   const [profile,setProfile]=useState();
+  
+  const router=useRouter();
+  const handleLogout=()=>{
+    localStorage.clear();
+    router.push('/components/login');
+  }
+
   return (
     <section>
       <div className="container mx-auto px-10 py-10">
@@ -17,8 +30,9 @@ export default function Profile() {
              <h1 className="font-oswald font-[600] text-[32px] mt-5">Hello User</h1>
            </div>
          </div>
-         <div className="flex justify-center mt-3">
+         <div className="flex justify-center mt-3 gap-5">
             <button className="border-2 border-[#4a4a4a] p-2 px-4 rounded-[30px] hover:bg-blue-800 hover:text-[white] font-inter font-[400] text-[18px]">Update Profile</button> 
+            <button onClick={handleLogout} className="border-2 border-[#4a4a4a] p-2 px-4 rounded-[30px] hover:bg-blue-800 hover:text-[white] font-inter font-[400] text-[18px]">Logout</button> 
          </div>
          
  
