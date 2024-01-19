@@ -27,7 +27,7 @@ export default function Profile() {
          <div className="flex justify-center">
            <div className="flex flex-col items-center">
              <Image src={userIcon} alt="profile image" className="h-[100px] w-[100px]"/>  
-             <h1 className="font-oswald font-[600] text-[32px] mt-5">Hello User</h1>
+             <h1 className="font-oswald font-[600] text-[32px] mt-5">Hello LoggedIn User</h1>
            </div>
          </div>
          <div className="flex justify-center mt-3 gap-5">
