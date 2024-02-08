@@ -40,7 +40,7 @@ export default function Varities() {
     <section>
       <div className='mx-auto'>
          <div className='py-20 px-10 text-center bg-gradient-to-r from-[#220024] via-[#630869] to-[#8800ff] text-[#FFFFFF]'>
-           <h2 className='font-[600] text-[45px]'>Different Variety</h2>
+           <h2 className='font-[600] text-[45px]'>Different Variety we Offer</h2>
            <p className='font-inter font-[400] text-[26px] mt-[20px]'>Never get bored. Get results with short & effective workouts you can do anywhere.</p>
 
            <Slider {...settings}>
