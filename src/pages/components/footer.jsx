@@ -33,9 +33,9 @@ export default function Footer() {
         <div className="w-1/3 flex items-center justify-center">
           <div>
             <h3 className="font-inter font-[600] text-[20px] leading-[22px]">Contact Us At</h3>
-            <p className="font-inter font-[400] text-[16px] mt-5">C-122, 3rd Floor Indrapuri Sector-C<br/>Bhopal,MP, 462022</p>
-            <p className="font-inter font-[400] text-[20px] leading-[22px] mt-5">hi@next.fit.com</p>
-            <p className="font-inter font-[400] text-[20px] mt-2">9507558339</p>
+            <p className="font-inter font-[400] text-[16px] mt-5">218-B,Indrapuri Sector-B<br/>Bhopal,MP, 462022</p>
+            <p className="font-inter font-[400] text-[20px] leading-[22px] mt-5">premkumar412k@gmail.com</p>
+            <p className="font-inter font-[400] text-[20px] mt-2">7634926994</p>
           </div>
         </div>
       </div>  
