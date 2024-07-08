@@ -60,6 +60,7 @@ export default function Bmi() {
            <div className="font-inter font-[400] text-[24px] bg-black text-white text-center mt-5 rounded-[30px]"  style={{backgroundColor:color}}>
             <h1>{bmi}</h1>
             <h2>{info}</h2>
+            <h2>Prem</h2>
            </div>
            <div className="mb-10 mt-4">
             <p className='text-[24px] font-[600] font-inter text-white'>To get your diet plan Click <Link href="/services/dietplan"><span className='text-blue-600'>here</span></Link></p>
